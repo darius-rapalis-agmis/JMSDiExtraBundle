@@ -19,7 +19,7 @@
         "symfony/dependency-injection": "~2.3|~3.0",
         "symfony/process": "~2.3|~3.0",
         "symfony/finder": "~2.3|~3.0",
-        "jms/aop-bundle": "~1.1",
+        "jms/aop-bundle": "dev-main",
         "jms/metadata": "~1.0"
     },
     "require-dev": {
@@ -48,5 +48,11 @@
         "branch-alias": {
             "dev-master": "1.8-dev"
         }
+    },
+    "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/darius-rapalis-agmis/JMSAopBundle.git"
     }
+  ]
 }
